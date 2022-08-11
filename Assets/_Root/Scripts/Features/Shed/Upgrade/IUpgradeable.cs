@@ -4,6 +4,7 @@ namespace Features.Shed.Upgrade
     {
         float Speed { get; set; }
         float JumpHeight { get; set; }
+        float MagnetForce { get; set; }
         void Restore();
     }
 }
